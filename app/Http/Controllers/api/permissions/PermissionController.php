@@ -125,6 +125,6 @@ class PermissionController extends Controller
             return response()->json([
                 'message' => $th->getMessage()
             ], 500);
-        }
-    }
+}
+}
 }
